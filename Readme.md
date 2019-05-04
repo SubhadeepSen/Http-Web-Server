@@ -1,1 +1,3 @@
+## Http Web Server
+
 #### The HTTP Web Server is a multi-threaded web application server and has the capability of handling _GET_ and _POST_ request. The server works with the Annotation Processing Engine. It accepts the request and builds the request object by extracting information from the incoming request. Then it sends required details to the processing engine for further execution based on the request. Once the view name is retrieved after processing, it sends the detail to response processor. Now it looks for the view and process it for variable replacement and then go for building the proper response header. Once the response processing is done, the response object is sent to response sender and finally the server sends the response back to the client.
